@@ -1,0 +1,38 @@
+body{
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+    font-family: 'Dancing Script', cursive!important;
+}
+
+.container{
+    padding:50px;
+   
+}
+h1{
+    text-align: center;
+   
+}
+form{
+    background-color: transparent;
+    padding:20px;
+    border-radius:15px;
+    width:50%;
+}
+::placeholder{
+    font-size:18px!important;
+}
+.form-control{
+    background-color: transparent;
+    font-size:18px!important;
+    border-radius:10px;
+}
+button{
+    width:40%;
+    height: 40px;;
+    justify-content: center;
+   background-color: lightgray!important;
+}
